@@ -10,7 +10,7 @@ zip();
 
 return app.gulp.src(`${path.rootFolder}/**/*`)
 .pipe(ghPages({
-remoteUrl: "https://github.com/USERNAME/REPO_NAME.git",
+remoteUrl: "https://github.com/egorsv1985/gulp-starter.git",
 branch: "gh-pages"
 }));
 };
