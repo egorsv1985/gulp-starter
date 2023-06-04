@@ -1,0 +1,29 @@
+{
+  "name": "gulp-starter",
+  "version": "1.0.0",
+  "description": "Gulp-template with bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp scripts",
+    "zip": "gulp zip",
+    "pages": "gulp pages",
+    "sprites": "gulp sprites",
+    "start": "npm-run-all --parallel dev watch",
+    "default": "npm-run-all start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egorsv1985/gulp-starter.git"
+  },
+  "author": "Sabancev Egor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egorsv1985/gulp-starter/issues"
+  },
+  "homepage": "https://github.com/egorsv1985/gulp-starter#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
